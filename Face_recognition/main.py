@@ -1,4 +1,4 @@
-# This project was done in google colab, because face recognition module is not getting installed in my system
+# This project was done in google colab, because face recognition module was not getting installed in my system
 # link to google colab page is given below
 # https://drive.google.com/file/d/17fpoPlgqC7m4q7zTfRMiCx0qXFhW7LAt/view?usp=sharing
 
