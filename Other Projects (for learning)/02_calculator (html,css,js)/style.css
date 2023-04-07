@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;500;700&display=swap');
+:root {
+    font-size: 10px;
+}
+
+* {
+    font-size: 2rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
+    padding: 0rem 5%;
+}
+
+.container{
+    background-color: black;
+    width: 50rem;
+    padding: 3rem;
+}
+.screen{
+    box-sizing: border-box;
+    width: 100%;
+    height: 10rem;
+    background-color: rgb(32, 33, 32);
+    border: none;
+    color: white;
+    text-align: right;
+    padding: 1rem;
+    font-size: 5rem;
+    pointer-events: none;
+}
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 5rem;
+    height: 43rem;
+}
+.btn, .btn-clear, .btn-equal{
+    flex-basis: 23%;
+    color: rgb(28, 7, 47);
+    font-weight: 500;
+    width: 7rem;
+    height: 7rem;
+    border-radius: 10%;
+    font-size: 3rem;
+}
+.btn-orange{
+    background-color: rgb(251, 179, 44);
+}
+.btn-clear{
+    background-color: red;
+}
+.btn-equal{
+    background-color: rgb(20, 251, 20);
+}
+
+
+
+
+
+
+/* my css classes*/
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.shadow {
+    box-shadow: 0.5rem 0.5rem 1rem black;
+}
+
+.hide {
+    display: none;
+}
+

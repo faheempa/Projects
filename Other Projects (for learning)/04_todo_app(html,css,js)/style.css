@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;500;700&display=swap');
+
+:root {
+    font-size: 10px;
+}
+
+* {
+    font-size: 2rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0rem 5%;
+    background: linear-gradient(60deg, rgb(128, 143, 253), rgb(255, 112, 253)) no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+main {
+    margin: 2rem auto;
+    width: fit-content;
+}
+
+.heading {
+    font-size: 5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.item-input {
+    outline: none;
+    width: 40rem;
+    height: 5rem;
+    padding: 1rem;
+    font-weight: 400;
+    border: none;
+    background-color: white;
+}
+
+.submit-btn {
+    width: 5rem;
+    height: 5rem;
+    background-color: white;
+    color: green;
+    border: none;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: green;
+    color: white;
+}
+
+.items {
+    margin-top: 2rem;
+    list-style: none;
+}
+
+.item {
+    display: flex;
+    margin: 1rem 0rem;
+    background-color: rgb(255, 253, 253);
+    box-shadow: 0.2rem 0.1rem 0.5rem black;
+    transition: all 0.5s ease-in;
+}
+
+.item .text {
+    flex-grow: 1;
+    font-weight: 400;
+    padding: 1rem;
+    text-transform: capitalize;
+}
+
+.fa-check {
+    background-color: rgb(3, 255, 3);
+    padding: 1rem 1.5rem;
+    cursor: pointer;
+}
+
+.fa-trash {
+    background-color: rgb(255, 0, 0);
+    padding: 1rem 1.5rem;
+    cursor: pointer;
+}
+.remove-item{
+    transform: translateY(20rem) rotateZ(20deg);
+    opacity: 0;
+}
+select{
+    background-color: #88fff1;
+    border: none;
+    padding: 1rem;
+    outline: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+.completed{
+    opacity: 0.5;
+    text-decoration: line-through;
+}
+.hide{
+    display: none;
+}
+
+
+@media (max-width: 700px) {
+    main{
+        width:40rem
+    }
+    .item-input{
+        width: 35rem;
+    }
+    select{
+        margin-top: 1rem;
+    }
+    .remove-item{
+        transform: translateX(50rem);
+        opacity: 0;
+    }
+}   
