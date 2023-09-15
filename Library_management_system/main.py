@@ -80,12 +80,14 @@ def rent_confirm_fun():
     except Exception as e:
         print(e)
 
+
 def rent_clear_fun():
-    book_id_rent_term.delete(0,END)
-    student_id_rent_term.delete(0,END)
+    book_id_rent_term.delete(0, END)
+    student_id_rent_term.delete(0, END)
     book_name_rent_term.config(text="")
     student_name_rent_term.config(text="")
     avail_rent_term.config(text="")
+
 
 def get_current_time():
     from datetime import datetime
@@ -96,7 +98,8 @@ def get_current_time():
 
 def clear_tab_0():
     rent_clear_fun()
-    book_id_return_term.delete(0,END)
+    book_id_return_term.delete(0, END)
+
 
 def return_fun():
     if book_id_return_term.get().isdecimal() == False:
@@ -108,17 +111,23 @@ def return_fun():
         messagebox.showerror(title="Incorrect ID", message="No such Book ID exist")
         book_id_return_term.delete(0, END)
         return
-    if select_from_table(cur, book, condition=f"Book_ID = {bid} and Available='no'", rtn=True) == []:
+    if (
+        select_from_table(
+            cur, book, condition=f"Book_ID = {bid} and Available='no'", rtn=True
+        )
+        == []
+    ):
         messagebox.showerror(title="Not Rented", message="This book was not rented")
         book_id_return_term.delete(0, END)
         return
-    ctime=get_current_time()
-    update_records(cur, rented, set=f"return_time = '{ctime}'", condition=f"Book_ID = {bid}")
+    ctime = get_current_time()
+    update_records(
+        cur, rented, set=f"return_time = '{ctime}'", condition=f"Book_ID = {bid}"
+    )
     update_records(cur, book, set="Available = 'yes'", condition=f"Book_ID = {bid}")
     print_table(cur, tv_1, book, bookp)
     print_table(cur, tv_3, rented, rentedp, order="d")
     book_id_return_term.delete(0, END)
-    
 
 
 def print_table(cur, tv, table_name, sort=None, order="asc"):
@@ -144,7 +153,9 @@ def tv_1_fun(e):
 def search_fun_tv_1():
     term = search_term_tv_1.get()
     if term == "yes" or term == "no":
-        cur.execute(f"select * from {book} where Available = '{term}' order by Book_name")
+        cur.execute(
+            f"select * from {book} where Available = '{term}' order by Book_name"
+        )
     elif term.isdecimal():
         cur.execute(
             f"select * from {book} where Book_ID = {int(term)} order by Book_name"
@@ -429,7 +440,7 @@ if __name__ == "__main__":
             font=("arial", 15),
             width=10,
         )
-        confirm_btn_rent.grid(row=7, column=0,columnspan=2, pady=10)
+        confirm_btn_rent.grid(row=7, column=0, columnspan=2, pady=10)
 
         return_wrapper_tab_0 = LabelFrame(wrapper2, border=False, font=("arial", 15))
         return_wrapper_tab_0.pack(pady=20)
@@ -561,7 +572,7 @@ if __name__ == "__main__":
         )
         delete_btn_data_tv_1.pack(side=LEFT)
         cur.execute(f"select max(Book_ID) from {book}")
-        bid = int(cur.fetchall()[0][0])+1
+        bid = int(cur.fetchall()[0][0]) + 1
         add_btn_data_tv_1 = Button(
             btn_wrapper_tab_1,
             text="Add",
