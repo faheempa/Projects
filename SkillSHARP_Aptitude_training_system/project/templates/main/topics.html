@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<div>
+      <div class="topic-heading">
+            <i>Welcome to SkillSHARP !</i>
+      </div>
+      <div class="topic-heading-text">
+            Aptitude questions and answers for your placement interviews and competitive exams. Choose a catagory!
+      </div>
+</div>
+<div class="toggle-drop-down">
+      {% for s in topics.keys() %}
+      <div class="section">
+            <a onclick="ToggleSection(this)">
+                  <div class="sectionHead">
+                        <div>{{s}}</div>
+                        <i class="fa fab fa-plus"></i>
+                  </div>
+            </a>
+            <div class="sectionBody">
+                  {% for t in topics[s] %}
+                  <a href="/questions/{{s.replace(' ', '_')}}/{{t.replace(' ', '_')}}">{{t}}</a>
+                  {% endfor %}
+            </div>
+      </div>
+      {% endfor %}
+</div>
+
+{% endblock %}

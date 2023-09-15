@@ -1,0 +1,53 @@
+{% extends "layout.html" %}
+{% block content %}
+
+
+<div class="hero-container">
+    <div class="hero-row">
+        <div class="text">
+            <h1><i>What is Aptitude test?</i></h1>
+            <p>
+                An aptitude test is an exam used to determine an individual's skill or propensity to succeed in a given
+                activity. Aptitude tests assume that individuals have inherent strengths and weaknesses and have a
+                natural inclination toward success or failure in specific areas based on their innate characteristics.
+                <br>
+                <br>
+                Aptitude tests are generally used for job placement, college program entry, and to help people to get an
+                idea of where their interests and aptitudes can take them regarding careers.
+            </p>
+        </div>
+        <div class="image"><img src="{{url_for('static', filename='img/computer.png')}}" alt="computer-img"></div>
+    </div>
+
+    <div class="hero-row">
+        <div class="image"><img src="{{url_for('static', filename='img/success.png')}}" alt="success-img"></div>
+        <div class="text">
+            <h1><i>Why SkillSHARP?</i>
+            </h1>
+            <p>
+                The Skillsharp Aptitude Training System is a comprehensive web-based platform designed to enhance
+                students' aptitude skills for competitive exams and job placements. It offers a vast repository of
+                aptitude questions, organized by topics and difficulty levels, allowing students to practice and improve
+                their problem-solving abilities.
+                <br><br>
+                The system ensures secure access through user authentication and
+                provides administrators with an intuitive portal for efficient question database management. With a
+                responsive user interface and adherence to software quality and security standards, the platform aims to
+                empower students in their preparation journey, promoting academic and career success through structured
+                aptitude training.
+            </p>
+        </div>
+    </div>
+    <a class="get-started mt-5" href="{{url_for('main.topics')}}">GET STARTED</a>
+</div>
+
+<style>
+    body {
+        background: rgb(233, 251, 250);
+        background: linear-gradient(184deg, rgba(233, 251, 250, 1) 10%, rgba(255, 214, 214, 1) 83%);
+    }
+</style>
+
+
+
+{% endblock %}
