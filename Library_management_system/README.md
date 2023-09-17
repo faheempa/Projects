@@ -1,6 +1,7 @@
 # Library Management System
 
-Library management system using python.
+A clean and user-friendly Library Management
+System using Python.
 
 Using the inbuild sqlite module for database management and tkinder module for GUI.
 
