@@ -1,0 +1,99 @@
+Diseases Detection of Various Plant Leaf Using Image Processing Techniques: A Review
+
+Abstract— Agriculture is a key source of livelihood. Agriculture provides employment opportunities for village people on a large scale in developing countries like India. India's agriculture is composed of many crops, and according to a survey, nearly 70% of the population depends on agriculture. However, most Indian farmers still adopt manual cultivation due to a lack of technical knowledge. Farmers are often unaware of what kind of crops grow well on their land, and when plants are affected by diseases through their leaves, it can have a significant impact on agricultural production and lead to financial losses. Identifying diseases in plant leaves is challenging for both farmers and researchers. Currently, farmers rely on spraying pesticides on plants, but this can have direct or indirect effects on human health and the economy. Therefore, there is a need for fast and efficient techniques to detect plant diseases. This paper presents a survey on different plant diseases and various advanced techniques for disease detection.
+
+Keywords— Crops, Cultivation, Pesticides, Plant diseases.
+
+I. INTRODUCTION
+
+The Indian economy is highly dependent on agricultural productivity, with over 70% of rural households relying on agriculture. Agriculture contributes about 17% to the total GDP and provides employment to over 60% of the population [1]. Therefore, the detection of plant diseases plays a vital role in the field of agriculture. Indian agriculture is composed of many crops, such as rice, wheat, sugarcane, oilseeds, potatoes, and non-food items like coffee, tea, cotton, and rubber. The growth of these crops depends on the strength of their leaves and roots. However, various factors can lead to different diseases in plant leaves, which can spoil crops and have a negative impact on the economy of the country. These losses can be avoided by early identification of plant diseases. Accurate detection of plant diseases is needed to strengthen the field of agriculture and the economy of our country. However, identifying diseases in plant leaves is challenging for farmers and researchers. Farmers often lack knowledge about different diseases and struggle to take appropriate precautions. In the field of biomedical research, image processing methods have proven to be suitable, efficient, and reliable for disease detection using plant leaf images. Farmers need fast and efficient techniques to detect all types of plant diseases, which can save time, reduce efforts, and minimize the use of pesticides. Scientists have proposed different ideas for measuring yields in agriculture using laboratory and system-based approaches for efficient identification of plant leaf diseases. This paper presents a survey of various types of plant diseases and techniques for their detection.
+
+II. KEY ISSUES AND CHALLENGES IN THE FIELD OF DISEASE ANALYSIS
+
+Many researchers have conducted studies on various plants and their diseases, and they have proposed different techniques to identify these diseases. Automating the identification of diseases involves collecting input data from different sources. In this review, we identify and discuss key issues, challenges, and techniques related to disease analysis based on different research papers. Some of the key issues and challenges include:
+
+1. Quality image of plant leaves: Obtaining high-quality images of plant leaves is crucial for accurate disease detection.
+
+2. Large dataset: Consideration of a large amount of data is necessary for effective disease detection.
+
+3. Background data and noise: Acquired images are often affected by background data and noise, which can affect the accuracy of disease detection.
+
+4. Segmentation: Segmenting the exact spot in a leaf into meaningful disease areas is important for disease detection. This involves preparing training and testing samples from input images.
+
+5. Classification: Classifying the segmented spots into meaningful diseases plays a crucial role in disease recognition.
+
+6. Variation in leaf color, size, and texture: The color, size, and texture of plant leaves can vary with changes in climate, making disease identification challenging.
+
+7. Regular observation: Regular observation is necessary for identifying diseases in specific plants.
+
+8. Disease identification for different plant leaves: Identifying diseases in different types of plant leaves can be challenging.
+
+9. Image processing and machine learning techniques: Reviews suggest that image processing and machine learning techniques have more potential for disease detection, but there is a need for improvement in existing research.
+
+Considering these challenges, further research is needed to develop efficient techniques for disease detection.
+
+III. LITERATURE SURVEY ON VARIOUS PLANT DISEASES
+
+Many researchers have conducted studies on various plants and their diseases, and they have proposed different techniques to identify these diseases. To gain a better understanding of this research area, we conducted a study on various types of plants and their diseases. This survey will help propose novel ideas for disease identification.
+
+A. Different Types of Plant Diseases
+
+Plant diseases occur when a virus, bacteria, or other pathogens infect a plant and disrupt its normal growth. The effects on plant leaves can vary from discoloration to death. Diseases can be caused by fungi, microbes, viruses, nematodes, and other factors. Some common diseases in plants include rust, kole roga, yellow leaf disease, leaf rot, leaf curl, angular leaf spot, leaf spot, late blight, and bacterial wilt. Each disease has its own symptoms and characteristics, making disease identification challenging for farmers. Figure 1 shows images of plant diseases in various plants.
+
+B. Review of Literature
+
+Many researchers have conducted studies on various plant diseases and proposed different techniques for their detection. Some of the techniques used by researchers include computer vision technology, Gabor wavelet transform, hybrid clustering methods, artificial neural networks (ANN), deep learning methods, and image segmentation. These techniques have been applied to different plants and have shown promising results in disease detection. However, further research is needed to improve the accuracy and efficiency of disease detection.
+
+IV. IMPORTANCE OF AUTOMATION
+
+Automation plays a crucial role in the prevention and detection of plant diseases. It can overcome the limitations of manual observation and provide faster and more accurate results. By applying image processing techniques, automation can detect diseases in plant leaves at an early stage, helping farmers take timely precautions and prevent further damage to crops. Automation can also reduce the need for excessive pesticide use, which can have negative effects on human health and the environment. Therefore, automation is important for both the agricultural sector and human well-being.
+
+V. OVERALL REVIEWS
+
+The literature survey presented in this paper highlights the importance of disease detection in plants and its impact on agriculture and human life. The survey provides an overview of different plant diseases and the techniques used by researchers for disease detection. It emphasizes the need for further research in this field to develop more efficient and accurate techniques for disease identification. The survey also highlights the importance of automation in the agricultural sector and its potential to improve crop yields and reduce the use of pesticides. Overall, the survey provides valuable insights into the current state of research on plant disease detection and the challenges that need to be addressed in future studies.
+
+REFERENCES
+
+[1] Indian agriculture economy. Available: http:// statisticstimes.com/economy/sectorwise-gdp-Contribution-of-india.php
+
+[2] Common rust in maize. Available: https://www.pioneer.com/home/site/us/agronomy/library/common-rust-in-corn/
+
+[3] Indian Council of Agricultural Research. Available: https://www.apsnet.org/publications/imageresource/Pages/Fi00158.aspx
+
+[4] Family of trees. Available: https://plantvillage.psu.edu/topics/coconut/infos
+
+[5] Agropedia. Available: http://agropedia.iitk.ac.in/content/papaya-diseases-its-control
+
+[6] Prof.Sonal, P.Patil, Rupali, Zambre. "Classification of Cotton Leaf Spot Disease Using SVM." International Journal of Engineering Research & Applications, Vol.4, pp.92-97, May 2014.
+
+[7] World of Chillies. Available: https://worldofchillies.com/growing_chillies/chilli_pest-problems-diseases/chilli-diseases/chilli-diseases.html
+
+[8] Pragya Adhikari, Yeonyee Oh, Dilip R. Panthee. "Current Status of Early Blight Resistance in Tomato: An Update." International Journal of Molecular Science, September 2017.
+
+[9] Akansha Pandey, Sanjeev Dubey. "Evaluations of brinjal germplasm for resistance to fusarium wilt disease." International Journal of Scientific and Research Publications, Volume 7, Issue 7, July 2017.
+
+[10] Gittaly Dhingra, Vinay Kumar, Hem Dutt Joshi. "Study of digital image processing techniques for leaf disease detection and classification." Springer-Science, 29 November 2017.
+
+[11] Shitala Prasad, Sateesh K. Peddoju, Debashis Ghosh. "Multi-resolution mobile vision system for plant leaf disease diagnosis." Springer-Verlag London, pp. 379–388, 2015.
+
+[12] Shanwen Zhang, Zhuhong You, Xiaowei Wu. "Plant disease leaf image segmentation based on superpixel clustering and EM algorithm." Springer, June 2017.
+
+[13] Keyvan Asefpour Vakilian, Jafar Massah. "An artificial neural network approach to identify fungal diseases of cucumber (Cucumis sativus L.) Plants using digital image processing." Taylor & Francis, Vol. 46, No. 13, 1580–1588, 2013.
+
+[14] Mohammed Brahimi, Kamel Boukhalfa, Abdelouahab Moussaoui. "Deep Learning for Tomato Diseases: Classification and Symptoms Visualization." Taylor & Francis, vol. 31, no. 4, 299–315, 2017.
+
+[15] H. Al-Hiary, S. Bani-Ahmad, M. Reyalat, M. Braik, Z. AlRahamneh. "Fast and Accurate Detection and Classification of Plant Diseases." International Journal of Computer Applications, Vol. 17, No. 1, pp. 31-38, March 2011.
+
+[16] Yuanyuan Shao, Guantao Xuan, Yangyan Zhu, Yanling Zhang, Hongxing Peng, Zhongzheng Liu, Jialin Hou. "Research on automatic identification system of tobacco diseases." Taylor & Francis, vol. 65, no. 4, 252–259, 2017.
+
+[17] Vijai Singh, A.K. Misra. "Detection of plant leaf diseases using image segmentation and soft computing techniques." Information Processing In Agriculture, Vol. 4, pp. 41-49, 2017.
+
+[18] Shanwen Zhang, Xiaowei Wu, Zhuhong You, Liqing Zhang. "Leaf image based cucumber disease recognition using sparse representation classification." Computers and Electronics in Agriculture, pp. 135–141, 2017.
+
+[19] Amar Kumar Dey, Manisha Sharma, M.R. Meshram. "Image Processing Based Leaf Rot Disease Detection of Betel Vine (Piper Betle L.)." Procedia Computer Science, pp. 748–754, 2016.
+
+[20] Srdjan Sladojevic, Marko Arsenovic, Andras Anderla, Dubravko Culibrk, Darko Stefanovic. "Deep Neural Networks Based Recognition of Plant Diseases by Leaf Image Classification." Hindawi Publishing Corporation Computational Intelligence and Neuroscience, Vol. 2016, Article ID 3289801, 11 pages.
+
+[21] Manisha Bhange, H.A. Hingoliwala. "Smart Farming: Pomegranate Disease Detection Using Image Processing." Procedia Computer Science, pp. 280–288, 2015.
+
+[22] Usama Mokhtar, Mona A. S. Ali, Aboul Ella Hassenian, Hesham Hefny. "Tomato leaves diseases detection approach based on support vector machines." IEEE, 2015.

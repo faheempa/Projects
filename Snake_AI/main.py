@@ -10,7 +10,6 @@ MAX_MEMORY = 250_000
 BATCH_SIZE = 1500
 LR = 0.001
 
-
 class Agent:
     def __init__(self) -> None:
         self.no_of_game = 0
@@ -18,7 +17,7 @@ class Agent:
         self.gamma = 0.9  # discount rate (must be smaller than 1)
         self.memory = deque(maxlen=MAX_MEMORY)
         self.model = Linear_QNet(
-            13, 512, 3
+            13, 512, 3 
         )  # size of state, a random value, size of the action list
         self.trainer = QTrainer(self.model, lr=LR, gamma=self.gamma)
 

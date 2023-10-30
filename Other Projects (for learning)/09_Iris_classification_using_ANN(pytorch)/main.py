@@ -103,7 +103,6 @@ plt.ylabel("Accuracy")
 plt.title("Final test accuracy: {:.2f}".format(test_acc[-1]))   
 plt.show()
 
-
 # plot output with and without softmax
 pred = model(data)
 sm = nn.Softmax(dim=1)

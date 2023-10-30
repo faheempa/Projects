@@ -1,0 +1,398 @@
+Diseases Detection of Various Plant Leaf Using
+Image Processing Techniques: AReview
+Santhosh Kumar.S1
+Research Scholar, Department of CS&E
+KSSEM, VTU affiliated
+Karnataka, Bengaluru, India
+santhoshkumars.cs@gmail.com
+Abstract— Agriculture is a key source of livelihood.
+Agriculture provides employment opportunities for village
+people on large scale in developing country like India.
+India's agriculture is composed of many crops and
+according to survey nearly 70% population is depends on
+agriculture. Most of Indian farmers are adopting manual
+cultivation due to lagging of technical knowledge. Farmers
+are unaware of what kind of crops that grows well on their
+land. When plants are affected by heterogeneous diseases
+through their leaves that will effects on production of
+agriculture and profitable loss. Also reduction in both
+quality and amount of agricultural production. Leaves are
+important for fast growing of plant and to increase
+production of crops. Identifying diseases in plants leave is
+challenging for farmers also for researchers. Currently
+farmers are spraying pesticides to the plants but it effects
+human directly or indirectly by health or also
+economically. To detect these plant diseases many fast
+techniques need to be adopt. In this paper, we have done
+survey on different plants disease and various advance
+techniques to detect these diseases.
+Keywords—Crops, Cultivation, pesticides, Plant diseases.
+I. INTRODUCTION
+Indian economy is dependent of agricultural productivity.
+Over 70% of rural homes depend on agriculture. Agriculture
+pays about 17% to the total GDP [1] and provides
+employment to over 60% of the population. Therefore
+detection of plant diseases plays a vital key role in the arena of
+agriculture. Indian agriculture is composed of many crops like
+rice, wheat. Indian farmers also grow sugarcane, oilseeds,
+potatoes and non-food items like coffee, tea, cotton, rubber.
+All these crops grow based on strength of leaves and roots.
+There are things that lead to different disease for the plant
+leaves, which spoiled crops and finally it will effect on
+economy of the country. These big losses can be avoided by
+early identification of plant diseases. Accurate detection of
+plant disease is needed to strengthen the field of agriculture
+and economy of our country. Various types of Disease kill
+leaves in a plant. Farmers get more difficulties in identifying
+these diseases, they are unable to take precaution on those
+plants due to lack of knowledge on those diseases. Biomedical
+is one of the fields to detect plant diseases. In current day
+among this field, the image processing methods are suitable,
+efficient and reliable field for disease detection with help of
+plant leaf images. Farmers need fast and efficient techniques
+B.K.Raghavendra2
+Professor and Head, Department of CS&E
+KSSEM, VTU affiliated
+Karnataka, Bengaluru, India
+raghavendra.bk69@gmail.com
+to detect all types of diseases of plants that can save time.
+These systems that can reduce efforts and use of pesticides.
+For measurement of yields in agriculture different ideas are
+proposed by scientists with the help of laboratory and systems
+for efficient identification of plant leaf diseases. The paper we
+presented here is survey of various types of plant diseases and
+techniques for detection of disease by different researchers.
+.
+II. KEY ISSUES AND CHALLENGES IN THE FIELD
+OF DISEASE ANALYSIS
+Many researchers had done research on various plants and
+their diseases also they had given some techniques to identify
+that disease. Automation of identifying disease entails the
+input date collected from different sources. In this review,
+considering all different research papers we are identifying
+and discussing key issues, challenges on disease and
+techniques are as follows.
+• Quality image of plant leaves
+• Data set need to be considered in large amount.
+• Acquired images are affected by background data and
+noises.
+• Segmenting the exact spot in a leaf into meaningful
+disease. Preparation of training and testing samples
+from input image.
+• Classification plays a role in recognizing segmented
+spot into meaningful disease.
+• Colour of plant leaf, size and texture are varying when
+climate changed.
+• Regular observation is needed for particular plants.
+• Identifying diseases for different plant leaves is
+challenging.
+• Reviews suggest that image processing and machine
+learning techniques have more potential to find
+diseases so, there has to be improving in existing
+research.
+Keeping all these in mind and to discuss the techniques used
+to accomplish these challenges, the literature survey is
+discussed.
+III. LITERATURE SURVEY ON VARIOUS PLANT
+DISEASE
+Many researchers had done research on various plants and
+their diseases also they had given some techniques to identify
+that disease. To get understanding of this research area, we
+carry out a study on various types of plants with diseases. This
+2019 5th International Conference on Advanced Computing & Communication Systems (ICACCS)
+978-1-5386-9533-3/19/$31.00 ©2019 IEEE 313
+survey will help to propose novel idea for identification of
+diseases.
+A. DIFFERENT TYPES OF PLANT DISEASE
+The reason for this section is that researchers can understand
+type of image processing operation and type of feature need to
+be considered by observing various diseases.
+Disease to the plants that takes place when a virus, bacteria
+infects a plant and disorders its normal growth. Effect on plant
+leaves can vary from discoloration to death. Disease causes
+due to including fungi, microbes, viruses, nematodes. Here we
+are discussing some common diseases in Maize, arecanut,
+coconut trees, Papaya, Cotton, Chilli, Tomato, Brinjal. The
+images of plant disease are shown in Fig.1. Several variants of
+Diseases are explained further.
+• Rust: It is usually found on leaves lower surfaces of
+mature plants. Initially raised spots on the undersides of
+leaves. As time passes these spots become reddishorange spore masses. Later, leaf postules turn to yellowgreen and eventually black. Severe infestations will
+bend and yellow leaves and cause leaf drop[2].
+• Kole Roga: It is a major disease of arecanut. The
+pathogen is a fungus Phytophthora palmivora[3].
+• Yellow leaf disease: This disease caused by pathogen
+Phytoplasma in arecanut where green leaves tuning into
+yellow that gradually decline in yield.
+• Leaf rot: It is caused in coconut tree. It is caused by
+fungi or bacteria. Leaf spot vary in size, shape and
+colors [4].
+• Leaf curl: Disease is characterized by leaf curl. It can
+cause by fungus, genus Taphrina or virus[5].
+• Angular leaf spot: Most of cotton plants die due to this
+disease because it appears on leaves first then water
+soaked. Finally turn black and form holes in leaves [6].
+• Leaf spot: It is serious bacterial disease found in chili
+spread by Xanthomonas campestris pv vesicatoria [7].
+The symptoms like small yellow green legions and
+patches on leaves.
+• Late Blight: Late Blight spreads rapidly. The
+development of the fungus due to Cool and wet
+weather. It forms irregularly shaped ashen spots signs
+on leaves. Around the spots there will be a ring of white
+mold [8].
+• Bacterial wilt: Brinjal cultivation yield drops due to
+bacterial wilt. Entire plant has fall down due to wilting
+of the foliage [9].
+Rust: Maize Kole Roga: Arecanut
+Leaf Rot: Cocunut Papay LeavesCurl
+Angular Leafspot: Cotton Leaf Spot:Chilli
+Tomato Late Blight Bacterial wilt: Brinjal
+Fig.1. Plant Diseases in various Plants
+IV. REVIEW OF LITERATURE
+Automation of identifying disease is of great interest in the
+agriculture field around the world. Many researchers are
+carried out in detection of those diseases. Below are the various
+plant disease studies of the techniques used by the researchers
+in meeting the endeavour. The survey has been made on the
+major disease on various plants.
+Gittaly Dhingra [10] describes application of agriculture using
+computer vision technology to recognize and classify disease
+of plant leaf. The paper deals with correlation between disease
+symptoms and impact on product yield. It also deals with
+increase the number of training data and testing to accomplish
+better accuracy.
+Shitala Prasad [11] proposed mobile based client-server design
+for leaf disease detection using Gabor wavelet transom (GWT).
+In this system first carried out color conversion from the device
+dependent to colour space model. Mobile pre-processing can
+be done after acquiring leaf and converting color space. For
+human vision system Human perception*a*b colour space was
+designed. Making human perception of lightness more accurate
+by changing output curves in a & b components. To perform
+analysis of leaf image, K-means unsupervised algorithm was
+used. To perform feature extraction Gabor wavelet conversion
+2019 5th International Conference on Advanced Computing & Communication Systems (ICACCS)
+314
+was used. Author of this paper experimented with homemade
+dataset. In future proposing efficiently processing of Captured
+Leaf images in a complex background with different lightening
+condition.
+Shanwen Zhang[12], discussed hybrid clustering method. Leaf
+segmentation is important in detection of plant diseases which
+affects reliability of feature extraction. Author used super pixel
+clustering in which neighboring pixels with some feature with
+respect to brightness, texture, color are grouped into
+homogeneous regions. This can reduce complexity of images
+from more pixels. Author suggest that Expectation
+maximization (EM) algorithm may be good approach for color
+image segmentation.
+Keyvan Asefpour Vakilian[13] demonstrate that detect two
+types of fungus in cucumber plant leaves. ANN model with 3
+layers were utilized to identify P.cubensis and S.fuliginea
+infection. Author has taken real time germinated seeds of
+cucumber on moist paper which is at degree c for 3 days.
+Further research is needed to increase the ability of farmers
+assisted robots in real time detection of fungal and viral disease
+Mohammed Brahimi [14] proposed deep learning method to
+create classifier for detection of disease. Also proposed the
+occlusion concept to localize the disease regions & help to
+understand the disease. Author uses datasets which is published
+in good fellow, Bengio etc, further research is need to reduce
+the computation & size of deep models for small machine like
+mobiles
+H.Al-Hiary[15],proposed detection of plant diseases using
+automation and classify its diseases. Here pixels are grouped
+on set of feature into total k classes. When leaf has more than
+one disease then there is more clusters that cause disease. ANN
+is used to detection and classification of disease. Further
+research need to increase the accuracy ofdetection.
+Yuanyuan Shao[16] discussed multi feature and genetic
+algorithm BP neural network. Otsu method were used for
+segmentation & extraction. Practically in real time tobacco
+disease can be identified through mobile client and server can
+make a diagnosis on diseases which were uploaded by user.
+Here Otsu method was used to extract spot disease. Genetic
+algorithm can reduce training times and improve recognition
+accuracy. Further research needs other method describe
+tobacco disease feature and to improve accuracy.
+Vijai Singh[17] presented an algorithm for segmentation of
+plant leaf image. Author proposed image recognition and
+segmentation process. First, devices were used to capture
+image of different types and applied different segmentation
+method to process image. The author taken image of size m*n
+& every pixel has R,G,B components. Color co-occurrence
+method was used for feature extraction. Above experiments are
+done in MATLAB. Author demonstrates the results only for
+beans, leaf, lemon and banana leaf. Further research is needed
+for all types of leaves.
+Shanwen Zhang[18] proposed method for recognizing disease
+for cucumber leaves. Due to irregular shapes, complexity,
+shadows existing classifiers are not suitable for detection. From
+image of leaf, Author proposed a method using combined
+shape and color features. Author performed region
+segmentation from diseased image using K-means clustering
+algorithm. First system can collect images from data set. Image
+are converting from Red, Green, Blue space to
+Luminance*a*b* color model. Then classify color using kmeans clustering. Here each image is processed using
+techniques of smoothing, enhancing, denoising, alignment and
+segmented by k-means clustering techniques.
+Amar Kumar Dey[19] used image processing algorithm for
+betel vine to detect leaf rot disease. They proposed vision based
+method to detect and observe peripheral disease features.
+Based on color feature of rotted leaf area disease are
+identifying. Author chooses Bangla desi varieties of betel vine.
+They used cannon scanner with 300 PPI resolutions for
+detection. A leaf disease severity can be identified as leaf total
+area calculation and percentage diseased area. Author used
+Otsu thresholding method for segmenting leaf rot diseases.
+Srdjan Sladojevic [20] used deep convolution network
+approach for leaf disease recognition using classification
+method. Researcher proves that climate change can alter stage
+and pathogen development rate. Trained deep neural network
+to differentiate surrounding of leaves. To highlight region of
+interest all images are cropped manually by making square
+around the leaves. Author applied augmented process to
+increase dataset. Augmentation includes rotations,
+transformation and affine transformation. This paper presented
+caffe as a deep CNN framework.
+Manisha Bhangea [21] designed modern techniques which is
+web based tool for identifying disease from the image. In this
+techniques, first uploaded image in the web portal is resized
+and extracted image feature such as color, morphology etc.
+Author uses K-means for clustering and for classification SVM
+was used. In this paper farmers need to upload the plant leaf for
+disease detection in real time. Proposed framework that
+maintains two image databases for disease detection. One for
+training and other for testing. Author used erosion morphology
+techniques for description and representation of region shape.
+Author categorizes three stages for infection such as infected
+first stage, second stage, and Third stage. The paper presented
+for bacterial blight disease in pomegranate fruit. Further
+research is improving system performance to detect disease in
+large dataset.
+Usama Mokhtar[22] presented Gabor wavelet transform
+techniques to extract tomato leaf feature. They used SVM to
+detect leaf diseases. For experiments considering real sample
+images of tomato leaf and author observing two types of
+disease in tomato leaves including early blight and powdery
+mildew. In preprocessing phase images are resized to 512*512
+resolutions to deduce the computational time. Applied
+background subtraction method to remove background of
+image. In the classification, using of kernel function the SVM
+was trained and tested.
+V. IMPORTANCE OF AUTOMATION
+The agriculture department has taken initiative in the
+prevention of plants from different types of diseases in all
+seasons. The automation can overcome the manual
+observation of disease in plants by applying image processing
+2019 5th International Conference on Advanced Computing & Communication Systems (ICACCS)
+315
+practices plays a role in the computers era. Over decades many
+researchers have experimented lot of research on plant leaves
+to detect and recognize a type of diseases, this automation can
+find early disease that helps to prevent damages for plants and
+list of some diseases and techniques are specified above in the
+literature review, which actually bring to a close the
+importance of continuing the research for the next level of
+competency. The semantic gap in the identification of disease
+is growing day by day, as finding pathologists are difficult.
+Automation helps to prevent the spraying large amount of
+pesticides to plants. Moreover this automation can prevent
+human life also.
+VI. OVERALL REVIEWS
+The above Literature survey has detailed explanation of the
+importance of disease detection both to plants and to mankind.
+To have a meaningful impact of plant diseases & techniques in
+the area of agriculture, deliberation of proper input is
+necessary. Research issues addressed here are to develop a
+systematic approach to detect and recognize the plant diseases
+would assist farmers and pathologist in prospect exploration.
+The paper depicts the importance of image processing in
+agriculture field and considering the type of disease for further
+research work
+REFERENCES
+[1] “Indian agriculture economy.”. Available: http:// statistics
+times.com/economy/sectorwise-gdp-Contribution-ofindia.
+Php
+[2] “Common rust in maize”, Available: https://www.
+pioneer.com/home/site/us/agronomy/library/common-rustin-corn/
+[3] Indian Council of Agricultural Research”, Available:
+https://www.apsnet.org/publications/imageresource/
+Pages/Fi00158.aspx
+[4] “family of trees”, https:// plantvillage .psu. edu/ topics/ co
+conut/infos
+[5] “Agropedia”, Available:http://agropedia.iitk.ac.in /
+content /papaya-diseases-its-control
+[6] Prof.Sonal, P.Patil, Rupali, Zambre,”Classification of
+Cotton Leaf Spot Disease Using SVM,” International
+Journal of Engineering Research & Applications”,
+Vol.4,pp.92-97, May 2014
+[7] https:// worldofchillies.com/growing_chillies/chilli_pest
+problems diseases/chilli diseases/chillidiseases.html
+[8] Pragya Adhikari, Yeonyee Oh, Dilip R. Panthee” Current
+Status of Early Blight Resistance in Tomato: An Update,”
+International Journal of Molecular Science”, September
+2017
+[9] Akansha Pandey, Sanjeev Dubey,” Evaluations of brinjal
+germplasm for resistance to fusarium wilt disease,”
+nternational Journal of Scientific and Research
+Publications, Volume 7, Issue 7, July 2017
+[10] Gittaly Dhingra, Vinay Kumar, Hem Dutt Joshi ,“Study
+of digital image processing techniques for leaf disease
+detection and classification,” Springer-Science, 29
+November 2017
+[11] Shitala Prasad, Sateesh K. Peddoju, Debashis Ghosh ,“
+Multi-resolution mobile vision system for plant leaf
+disease diagnosis,” pp. 379–388, Springer-Verlag
+London 2015
+[12] Shanwen Zhang, Zhuhong You, Xiaowei Wu,” Plant
+disease leaf image segmentation based on superpixel
+clustering and EM algorithm,” Springer, June 2017.
+[13] Keyvan Asefpour Vakilian & Jafar Massah,” An artificial
+neural network approach to identify fungal diseases of
+cucumber (Cucumis sativus L.) Plants using digital
+image processing,” Vol. 46, No. 13,1580–1588, Taylor
+&Francis, 2013
+[14] Mohammed Brahimi, Kamel Boukhalfa & Abdelouahab
+Moussaoui,” Deep Learning for Tomato Diseases:
+Classification and Symptoms Visualization,” vol. 31,
+no.4, 299–315, Taylor & Francis, 2017
+[15] H.Al-Hiary, S. Bani-Ahmad, M.Reyalat, M.Braik &
+Z.AlRahamneh, “Fast and Accurate Detection and
+Classification of Plant Diseases”, International Journal
+of Computer Applications, Vol.17,No.1, pp.31-38.March
+2011.
+[16] Yuanyuan Shao, Guantao Xuan, Yangyan Zhu, Yanling
+Zhang, Hongxing Peng, Zhongzheng Liu & Jialin Hou,”
+Research on automatic identification system of tobacco
+diseases”, vol. 65, no. 4, 252–259, Taylor & Francis,
+2017
+[17] Vijai Singh, A.K. Misra,” Detection of plant leaf diseases
+using image segmentation and soft computing
+Techniques,”Information Processing In Agriculture 4
+(2017) 41–49 , science direct, 2017
+[18] Shanwen Zhang , Xiaowei Wuc, Zhuhong You, Liqing
+Zhang,” Leaf image based cucumber disease recognition
+using sparse representation classification,” Computers
+and
+Electronics in Agriculture 135–141, science direct, 2017
+[19] Amar Kumar Dey, Manisha Sharma, M.R.Meshram,”
+Image Processing Based Leaf Rot Disease, Detection of
+Betel Vine (Piper BetleL.),” Procedia Computer Science
+748 – 754, science direct, 2016
+[20] Srdjan Sladojevic, Marko Arsenovic, Andras Anderla,
+Dubravko Culibrk and Darko Stefanovic,” Deep Neural
+Networks Based Recognition of Plant Diseases by Leaf
+Image Classification,” Hindawi Publishing Corporation
+Computational Intelligence and Neuroscience,Vol 2016,
+Article ID 3289801, 11 pages
+[21] Manisha Bhange, H.A.Hingoliwala,” Smart Farming:
+Pomegranate Disease Detection Using Image
+Processing,” Procedia Computer Science 280 – 288,
+science direct, 2015
+[22] Usama Mokhtar, Mona A. S. Ali, Aboul Ella Hassenian,
+Hesham Hefny,” Tomato leaves diseases detection
+approach based on support vector machines,” IEEE,2015
+2019 5th International Conference on Advanced Computing & Communication Systems (ICACCS)
+316

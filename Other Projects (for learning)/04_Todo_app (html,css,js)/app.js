@@ -22,7 +22,6 @@ function localRemoveItem(text) {
     data.every((value, index) => {
         if (value[0] === text) {
             idx = index;
-            console.log(index)
             return false;
         }
         return true;

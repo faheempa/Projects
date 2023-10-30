@@ -1,4 +1,3 @@
-from curses.ascii import isdigit
 from tkinter import *
 from button_class import *
 
@@ -70,6 +69,7 @@ buttons = [[None for i in range(9)] for i in range(9)]
 for i in range(9):
     for j in range(9):
         btn = Button_class(window, i, j, command_fun=add_text)
+        btn.set_height_width(1, 3)
         buttons[i][j] = btn
 
 
